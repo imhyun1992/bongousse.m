@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*reset*/
+body,dev,header,p,ul,li,h1,h2,h3,footer{margin:0;padding:0;}
+a{text-decoration:none;color:#222;}
+ul{list-style:none;}
+img{border:0;vertical-align:top;max-width:100%;}
+body{font-family:'나눔고딕',sans-serif;font-size:14px;}
+html,body{width:100%;min-height:100%;}/*모바일 화면을 인식하기 위함*/
+/*
+a:link{}
+a:visited{}
+a:hover{} -> 마우스 올렸을 때 : pc에서만
+a:active{} -> 마우스 클릭하고 있는 동안 : mobile에서 터치 했을 때
+*/
+@font-face{
+    font-family:이순신 돋움체;
+    src:url('../font/woff/이순신돋움체B.woff') format('woff')
+}
+@font-face{
+    font-family:나눔바른고딕;
+    src:url('../font/woff/NanumBarunGothic.woff') format('woff')
+}
+@font-face{
+    font-family:여기어때 잘난체;
+    src:url('../font/woff/Jalnan.woff') format('woff')
+}
+@font-face{
+    font-family:견고딕;
+    src:url('../font/woff/H2GTRE.woff') format('woff')
+}
+/*메인 컬러 #ffa801*/

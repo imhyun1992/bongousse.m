@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*main visual*/
+#visual{
+    width:100%;
+    height:215px;
+}
+
+/*map*/
+
+#go_map{
+    width:100%;height:150px;
+    margin-top:28px;margin-bottom:28px;
+    position:relative;
+    background:url(../images/gomap.png) no-repeat;
+}
+#go_map h2{
+    position:absolute;
+    left:10.55555555555556%;top:27px;
+    font:20px '여기어때 잘난체';color:#4d4d4d;
+}
+
+/*봉구스 메뉴*/
+#menu_list{width:100%;}
+#menu_list h2{
+    font:20px/28px '여기어때 잘난체';color:#4d4d4d;
+    text-align:center;
+    margin-bottom:12px;
+}
+#menu_list ul{
+    overflow:hidden;
+    width:86.11111111111111%;/*310px*/
+    margin-left:6.944444444444444%;/*25*/
+    margin-right:6.944444444444444%;/*25*/
+}
+#menu_list ul li{
+    float:left;
+    width:30%;/*93px*/
+    margin-right:4.193548387096774%;/*13px*/
+    text-align:center;margin-bottom:11px;
+}
+#menu_list ul li:nth-child(3n){
+    margin-right:0;
+}
+#menu_list ul li .menu_title{
+    margin:auto;
+    font:13px/21px '나눔고딕';color:#333;
+}
+#menu_list ul li .menu_price{
+    margin:auto;
+    font:13px '나눔고딕';color:#683e16;
+}
+#more{width:100%;height:30px;margin-bottom:20px;}
+#more a{
+    display:block;width:100%;margin: auto;
+    text-align: center;
+    font:10px '여기어때 잘난체';color:#ffa801;
+    line-height:24px;
+    position:relative;
+}
+#more a:after{
+    content:'';
+    display:block;
+    width:0;height:0;
+    border:3px solid #ffa801;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    position:absolute;top:11px;left:50%;
+    margin-left:17px
+}
+
+/*order*/
+#order{
+    width:100%;
+    height:158px;
+    background-color:#eee4dc;
+    padding:23px 7.222222222222222%;/*26px*/
+    box-sizing: border-box;
+}
+#order h2{
+    text-align:center;
+    font:20px '여기어때 잘난체';color:#4d4d4d;
+}
+#order #time{
+    width:55.27777777777778%;
+    float:left;
+}
+#order #time p a{
+    font:11px/17px '나눔고딕';color:#000;
+    text-align:left;
+}
+#order #time #number a{
+    font:bold 25px/39px '견고딕';color:#fff;
+}
+#order #call{float:right;}
+
+#btn{
+    width:100%;
+    overflow:hidden;
+}
+#btn .btn{
+    width:50%;
+    height:46px;
+    float:left;
+    text-align:center;
+}
+#btn .btn a{
+    font:bold 18px/46px '여기어때 잘난체';color:#fff;
+}
+
+#btn1{background-color:#8e3535;}
+#btn1 a:active{color:#ffa801;}
+#btn2{background-color:#ffa801;}
+#btn2 a:active{color:#8e3535;}
